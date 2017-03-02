@@ -53,3 +53,14 @@ li:last-child {
 li a:hover {
 	background: linear-gradient(#45036f, #009d91);
 }
+
+img {
+	padding-top: 20px;
+	margin: auto;
+	height: 50%;
+	width: 50%;
+	min-height: 25%;
+	min-width: 25%;
+	max-height: 50%;
+	max-width: 50%;
+}
