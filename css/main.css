@@ -10,7 +10,11 @@ body {
 }
 
 .active {
-	background: linear-gradient(#6c0aab, #ff6f00);
+	background: #ff6f00; /* for browsers that do not support gradients */
+	background: -webkit-linear-gradient(#6c0aab, #ff6f00); /* Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#6c0aab, #ff6f00); /* Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#6c0aab, #ff6f00); /* Firefox 3.6 to 15 */
+	background: linear-gradient(#6c0aab, #ff6f00); /* standard syntax */
 }
 
 .misc {
@@ -30,7 +34,11 @@ nav ul {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background: linear-gradient(#6c0aab, #009d91);
+	background: #6c0aab; /* for browsers that do not support gradients */
+	background: -webkit-linear-gradient(#6c0aab, #009d91); /* Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#6c0aab, #009d91); /* Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#6c0aab, #009d91); /* Firefox 3.6 to 15 */
+	background: linear-gradient(#6c0aab, #009d91); /* standard syntax */
 }
 
 nav ul li {
@@ -52,7 +60,11 @@ nav ul li:last-child {
 }
 
 nav ul li a:hover {
-	background: linear-gradient(#45036f, #009d91);
+	background: #45036f; /* for browsers that do not support gradients */
+	background: -webkit-linear-gradient(#45036f, #009d91); /* Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#45036f, #009d91); /* Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#45036f, #009d91); /* Firefox 3.6 to 15 */
+	background: linear-gradient(#45036f, #009d91); /* standard syntax */
 }
 
 img {
