@@ -6,6 +6,7 @@
 
 body {
 	background-color: white;
+	padding-top: 100px;
 }
 
 .active {
@@ -26,6 +27,9 @@ nav ul {
 	text-transform: uppercase;
 	list-style-type: none;
 	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
 	background: linear-gradient(#6c0aab, #009d91);
 }
 
@@ -54,10 +58,6 @@ nav ul li a:hover {
 img {
 	padding-top: 20px;
 	margin: auto;
-	height: 50%;
-	width: 50%;
-	min-height: 25%;
-	min-width: 25%;
-	max-height: 50%;
-	max-width: 50%;
+	max-height: 100%;
+	max-width: 100%;
 }
