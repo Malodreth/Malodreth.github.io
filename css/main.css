@@ -36,12 +36,16 @@ body {
 	background-color: purple; /* for browsers that do not support CSS3 animations */
 	-webkit-animation-name: example; /* Safari */
 	-webkit-animation-duration: 6s;
+	-webkit-animation-iteration-count: infinite;
 	-o-animation-name: example; /* Opera */
 	-o-animation-duration: 6s;
+	-o-animation-iteration-count: infinite;
 	-moz-animation-name: example; /* Firefox */
-	-moz-animaition-duration: 6s;
+	-moz-animation-duration: 6s;
+	-moz-animation-iteration-count: infinite;
 	animation-name: example; /* standard syntax */
 	animation-duration: 6s;
+	animation-iteration-count: infinite;
 }
 
 .active {
