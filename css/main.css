@@ -8,17 +8,26 @@
 
 /*NAVBAR CONFIG*/
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:600px) {
 	#responsive {
 		font-size: 20px;
 	}
 
-	#responsive li {
+	#responsive li:last-child {
 		float: right;
 	}
 
 	html {
 		padding-top: 54px;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	html {
+		padding-top: 49px;
+	}
+	nav {
+		font-size: 15.25px;
 	}
 }
 
@@ -95,12 +104,6 @@ li.dropdown {
 /*MAIN CONTENT*/
 html, body {
 	height: 100%;
-}
-
-@media only screen and (max-width: 768px) {
-	html {
-		padding-top: 49px;
-	}
 }
 
 /*FOOTER CONFIG*/
