@@ -1,8 +1,107 @@
-.navbar-brand > img {
-	max-height: 100%;
-	height: 100%;
+* {
+	box-sizing: border-box;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 92px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	height: 92px;
+}
+
+.footer p {
+	padding-top: 8px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar img {
+	height: 50px;
 	width: auto;
-	margin: 0 auto;
-	-o-object-fit: contain;
-	object-fit: contain;
+	padding: 0px 10px 0px 10px;
+	margin: 0px;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+	padding-top: 52px;
+}
+
+.row.content {
+	height: 1000px;
+}
+
+.sidenav {
+	padding-top: 20px;
+	background-color: LightGrey;
+	height: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+	.carousel-inner > .item > img {
+		max-height: 500px;
+		min-height: 500px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#header-img {
+		background-image: url("C:/Users/Mike/Documents/Coding Projects/Test Website/imgs/mh_logo_max.png");
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.carousel-inner > .item > img {
+		max-height: 250px;
+		min-height: 250px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.sidenav {
+		height: auto;
+		padding: 15px;
+	}
+
+	.row.content {
+		height: auto;
+	}
+
+	#header-img {
+		background-image: url("C:/Users/Mike/Documents/Coding Projects/Test Website/imgs/mh_logo_min.png");
+	}
+}
+
+#header-img {
+	background-size: 1920px 200px;
+	background-repeat: no-repeat;
+}
+
+.carousel {
+	background-color: black;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
 }
