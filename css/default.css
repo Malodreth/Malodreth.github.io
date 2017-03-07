@@ -67,7 +67,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
 	#header-img {
-		background-image: url("C:/Users/Mike/Documents/Coding Projects/Test Website/imgs/mh_logo_max.png");
+		background-image: url("/imgs/mh_logo_max.png");
 	}
 }
 
@@ -89,7 +89,7 @@ footer {
 	}
 
 	#header-img {
-		background-image: url("C:/Users/Mike/Documents/Coding Projects/Test Website/imgs/mh_logo_min.png");
+		background-image: url("/imgs/mh_logo_min.png");
 	}
 }
 
