@@ -1,107 +1,55 @@
 * {
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
-}
-
-html {
-	position: relative;
-	min-height: 100%;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
 }
 
 body {
-	margin-bottom: 92px;
+	padding-top: 40px;
+	background: darkgrey;
 }
 
-.footer {
-	position: absolute;
-	bottom: 0;
-	height: 92px;
+#main-section {
+	padding-top: 10px;
+	background: white;
+	border-radius: 12px;
 }
 
-.footer p {
-	padding-top: 8px;
+#main-section .jumbotron {
+	margin: 20px 0px 0px 0px;
+	padding: 15px;
+	border-radius: 12px 12px 0px 0px;
 }
 
-footer {
-	background-color: black;
-	color: white;
+#jumbo-header {
+	border-bottom: 1px solid darkgrey;
 }
 
-.navbar {
-	margin-bottom: 0;
-	border-radius: 0;
-}
-
-.navbar img {
-	height: 50px;
-	width: auto;
-	padding: 0px 10px 0px 10px;
+#main-section .row {
 	margin: 0px;
 }
 
-.affix {
-	top: 0;
-	width: 100%;
-	z-index: 9999 !important;
+#main-section [class^="col-"] {
+	padding: 15px 15px;
+	background: lightcoral;
+	color: white;
 }
 
-.affix + .container-fluid {
-	padding-top: 52px;
+#main-section h4 {
+	text-transform: uppercase;
 }
 
-.row.content {
-	height: 1000px;
+@media screen and (max-width: 991px) {
+	#col-bottom-left {border-radius: 0px 0px 0px 0px;}
+	#col-bottom-right {border-radius: 0px 0px 12px 12px;}
 }
 
-.sidenav {
-	padding-top: 20px;
-	background-color: LightGrey;
-	height: 100%;
-}
-
-@media only screen and (min-width: 1200px) {
-	.carousel-inner > .item > img {
-		max-height: 500px;
-		min-height: 500px;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	#header-img {
-		background-image: url("/imgs/mh_logo_max.png");
-	}
-}
-
-@media only screen and (max-width: 1199px) {
-	.carousel-inner > .item > img {
-		max-height: 250px;
-		min-height: 250px;
-	}
-}
-
-@media only screen and (max-width: 767px) {
-	.sidenav {
-		height: auto;
-		padding: 15px;
-	}
-
-	.row.content {
-		height: auto;
-	}
-
-	#header-img {
-		background-image: url("/imgs/mh_logo_min.png");
-	}
-}
-
-#header-img {
-	background-size: 1920px 200px;
-	background-repeat: no-repeat;
-}
-
-.carousel {
-	background-color: black;
-}
-
-.carousel-control.right, .carousel-control.left {
-	background-image: none;
+@media screen and (min-width: 992px) {
+	#col-bottom-left {border-radius: 0px 0px 0px 12px;}
+	#col-bottom-right {border-radius: 0px 0px 12px 0px;}
+	#main-section [class^="col-"]:nth-child(odd) {border-right: 1px solid white;}
 }

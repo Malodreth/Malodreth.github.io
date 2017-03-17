@@ -1,125 +1,148 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en-GB">
 	<head>
-		<meta name="description" content="The homepage of Malodreth.">
-		<meta name="author" content="Malodreth">
-		<meta name="keywords" content="Michael,Herrera,Bakersfield,California,Projects">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Malodreth: Home</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="/css/default.css" title="default">
-		<link href="https://fonts.googleapis.com/css?family=Audiowide|Exo+2" rel="stylesheet">
-		<link rel="shortcut icon" type="image/ico" href="/imgs/favicon.ico">
+		<title>Malodreth's Homepage</title>
+		<!-- meta data -->
+		<meta charset="utf-8" />
+		<meta name="description" content="Malodreth's Homepage" />
+		<meta name="keywords" content="Malodreth, Project Ebony" />
+		<meta name="author" content="Malodreth" />
+		<meta name="viewport" content="width=device-width, initial-scale:1" />	
+		<!-- custom favicon -->
+		<link href="/assets/images/favicon.ico" type="image/ico" rel="shortcut icon" />	
+		<!-- Audiowide & Exo 2 Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Audiowide|Exo+2" rel="stylesheet" />
+		<!-- Bootstrap CSS v3.3.7 -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+		<!-- custom CSS -->
+		<link href="./css/default.css" rel="stylesheet" />
+		<link href="./css/malonav.css" rel="stylesheet" />
+		<!-- jQuery v3.1.1 -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Bootstrap JS v3.3.7 -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
-
 	<body>
-
-		<div class="container-fluid" style="height: 200px;" id="header-img">
-		</div>
-
-		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" style="font-family: 'Audiowide', cursive;">
-			<div class="container-fluid">
+	
+		<!-- top navigation -->
+		<nav class="navbar navbar-custom navbar-fixed-top">
+			<div class="container">			
+				<!-- logo and collapse toggle button -->
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<img class="navbar-brand" src="/imgs/bomb.png">
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">News</a></li>
+					<a class="navbar-brand" href="./index.html">MALODRETH.CF</a>
+				</div>				
+				<!-- menu items -->
+				<div class="collapse navbar-collapse" id="mainNavBar">
+					<!-- left-align -->
+					<ul class="nav navbar-nav">	
+						<li><a href="./blog.html">Blog</a></li>
+						<!-- dropdown -->
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="/ebony">Ebony</a></li>
+								<li class="dropdown-header">Coding</li>
+								<li><a href="./ebony.html">Ebony</a></li>
+								<li class="divider"></li>
+								<li class="dropdown-header">Writing</li>
+								<li><a href="./creepy.html">Creepypasta</a></li>
 							</ul>
-						</li>
+						</li>						
 					</ul>
+					<!-- right-align -->
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">About Me</a></li>
+						<li><a href="./about.html">About</a></li>
 					</ul>
-				</div>
+				</div>			
 			</div>
 		</nav>
 
-
-		<div style="font-family: 'Exo 2', serif" class="container-fluid text-center" style="height: 1000px">
-			<div class="row content">
-
-				<div class="col-sm-2 sidenav">
-					<p>Stuff goes here like you wouldn't believe. Truly! This site is gonna be YUGE. The best. And believe me - I know a LOT about web design.</p>
-				</div>
-
-				<div class="col-sm-8 text-left">
-					<!-- image carousel -->
-					<br>
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-						<!-- carousel indicators -->
-						<ol class="carousel-indicators">
-							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-							<li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-							<li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-							<li data-target="#myCarousel" data-slide-to="3" class="active"></li>
-						</ol>
-						<!-- carousel slides -->
-						<div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<img class="img-responsive center-block" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg" alt="">
-							</div>
-							<div class="item">
-								<img class="img-responsive center-block" src="http://r.ddmcdn.com/s_f/o_1/cx_462/cy_245/cw_1349/ch_1349/w_720/APL/uploads/2015/06/caturday-shutterstock_149320799.jpg" alt="">
-							</div>
-							<div class="item">
-								<img class="img-responsive center-block" src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" alt="">
-							</div>
-							<div class="item">
-								<img class="img-responsive center-block" src="https://www.petfinder.com/wp-content/uploads/2012/11/91615172-find-a-lump-on-cats-skin-632x475.jpg" alt="">
-							</div>
-						</div>
-						<!-- carousel controls -->
-						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div>
-				</div>
-
-				<div class="col-sm-2 sidenav">
-					<p>More things will go here too! Things like ADS from the millions of my supports who love me and love what I am doing with this website and for this great wide web.</p>
-				</div>
-
+		<!-- main section -->
+		<section class="container" id="main-section">
+		
+			<div class="jumbotron">
+				<article>
+					<header id="jumbo-header">
+						<hgroup>
+							<h1><em>What's new?</em></h1>
+							<h3>Take a look at our most recent update...</h3>
+						</hgroup>
+					</header>
+					<h2>Ebony</h2>
+					<p>This is a placeholder for the best article ever.</p>
+					<p><a class="btn btn-lg btn-primary" href="#">View article &raquo;</a></p>
+				</article>
 			</div>
-		</div>
-
-
-		<footer class="footer" style="font-family: 'Exo 2', serif">
-			<div class="container-fluid">
-				<div class="btn-group btn-group-justified">
-					<a hred="/index.html" class="btn btn-danger active">Home</a>
-					<a hred="#" class="btn btn-danger">News</a>
-					<div class="btn-group dropup">
-						<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Projects <span class="caret"></span></button>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="/ebony">Ebony</a></li>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<h4>Article</h4>
+					<p>Stuff goes here like you wouldn't believe.</p>
+				</div>
+				<div class="col-md-6">
+					<h4>Article</h4>
+					<p>Stuff goes here like you wouldn't believe.</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<h4>Article</h4>
+					<p>Stuff goes here like you wouldn't believe.</p>
+				</div>
+				<div class="col-md-6">
+					<h4>Article</h4>
+					<p>Stuff goes here like you wouldn't believe.</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-6" id="col-bottom-left">
+					<h4>Article</h4>
+					<p>Stuff goes here like you wouldn't believe.</p>
+				</div>
+				<div class="col-md-6" id="col-bottom-right">
+					<h4>Article</h4>
+					<p>Stuff goes here like you wouldn't believe.</p>
+				</div>
+			</div>
+			
+			<footer class="footer">
+				<hr />
+				<!-- bottom navigation -->
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./blog.html">Blog</a></li>
+					<li class="dropup">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-header">Coding</li>
+							<li><a href="./ebony.html">Ebony</a></li>
+							<li class="divider"></li>
+							<li class="dropdown-header">Writing</li>
+							<li><a href="./creepy.html">Creepypasta</a></li>
 						</ul>
-					</div>
-					<a hred="#" class="btn btn-danger">About Me</a>
-				</div>
-				<p class="text-center">Copyright &copy; Malodreth. All rights reserved.</p>
-			</div>
-		</footer>
-
+					</li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="mailto:maherrerahere2@gmail.com">Contact</a></li>
+				</ul>
+				<br />
+				<!-- legal items -->
+				<ul class="list-inline text-center">
+					<li><a href="./legal/disclaimer.html">Disclaimer</a></li>
+					<li>|</li>
+					<li><a href="./legal/privacy.html">Privacy Policy</a></li>
+					<li>|</li>
+					<li><a href="./legal/tos.html">Terms of Service</a></li>
+				</ul>
+				<p>&copy 2017 Malodreth's Lair</p>
+			</footer>
+			
+		</section>
+		
 	</body>
 </html>
