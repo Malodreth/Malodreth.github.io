@@ -34,6 +34,7 @@
     background-color:#33aa33;
 }
 
-@media screen and (max-width: 991px) {
-	.navbar-custom .navbar-nav .dropdown-menu>li>a, .navbar-custom .navbar-nav .dropdown-menu .dropdown-header {color: #fff;}
+@media screen and (max-width: 767px) {
+	.navbar-custom .navbar-nav .dropdown-menu>li>a, 
+	.navbar-custom .navbar-nav .dropdown-menu .dropdown-header {color: #fff;}
 }

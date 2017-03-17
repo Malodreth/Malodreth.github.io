@@ -13,6 +13,7 @@ body {
 	background: darkgrey;
 }
 
+/* styling for index.html and main content pages */
 #main-section {
 	padding-top: 10px;
 	background: white;
@@ -52,4 +53,15 @@ body {
 	#col-bottom-left {border-radius: 0px 0px 0px 12px;}
 	#col-bottom-right {border-radius: 0px 0px 12px 0px;}
 	#main-section [class^="col-"]:nth-child(odd) {border-right: 1px solid white;}
+}
+
+/* styling for terms.html */
+#tos-section {
+	padding-top: 30px;
+	background: white;
+	border-radius: 12px;
+}
+
+#tos-section article {
+	padding: 0px 15px 15px 15px;
 }
