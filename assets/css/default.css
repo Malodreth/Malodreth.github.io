@@ -30,6 +30,10 @@ body {
 	border-bottom: 1px solid darkgrey;
 }
 
+#jumbo-header h1 {
+	font-style: italic;
+}
+
 #main-section .row {
 	margin: 0px;
 }
@@ -57,7 +61,7 @@ body {
 
 /* styling for terms.html */
 #tos-section {
-	padding-top: 30px;
+	padding-top: 15px;
 	background: white;
 	border-radius: 12px;
 }
