@@ -10,8 +10,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale:1" />	
 		<!-- custom favicon -->
 		<link href="./assets/images/favicon.ico" type="image/ico" rel="shortcut icon" />	
-		<!-- Audiowide & Exo 2 Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Audiowide|Exo+2" rel="stylesheet" />
+		<!-- Google Fonts Audiowide, Exo 2, Open Sans and Source Sans Pro -->
+		<link href="https://fonts.googleapis.com/css?family=Audiowide%7CExo+2%7COpen+Sans:300%7CSource+Sans+Pro" rel="stylesheet">
 		<!-- Bootstrap CSS v3.3.7 -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
 		<!-- custom CSS -->
@@ -61,17 +61,15 @@
 		</nav>
 		<!-- main section -->
 		<section class="container" id="main-section">		
-			<div class="jumbotron">
-				<article>
-					<header id="jumbo-header">
-						<h1>What's new?</h1>
-						<h3>Take a look at our most recent update...</h3>
-					</header>
-					<h2>Ebony</h2>
-					<p>This is a placeholder for the best article ever.</p>
-					<p><a class="btn btn-lg btn-primary" href="#">View article &raquo;</a></p>
-				</article>
-			</div>			
+			<header class="jumbotron">
+				<div id="jumbo-header">
+					<h1>What's new?</h1>
+					<h3>Take a look at our most recent update...</h3>
+				</div>
+				<h2>Ebony</h2>
+				<p>This is a placeholder for the best article ever.</p>
+				<p><a class="btn btn-lg btn-primary" href="#">View article &raquo;</a></p>
+			</header>			
 			<div class="row">
 				<div class="col-md-6">
 					<h4>Article</h4>
@@ -101,32 +99,31 @@
 					<h4>Article</h4>
 					<p>Stuff goes here like you wouldn't believe.</p>
 				</div>
-			</div>			
-			<footer class="footer">
-				<hr />
-				<!-- bottom navigation -->
-				<ul class="nav nav-pills nav-justified">
-					<li><a href="./index.html">Home</a></li>
-					<li><a href="./blog.html">Blog</a></li>
-					<li class="dropup">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li class="dropdown-header">Coding</li>
-							<li><a href="./ebony.html">Ebony</a></li>
-							<li class="divider"></li>
-							<li class="dropdown-header">Writing</li>
-							<li><a href="./creepy.html">Creepypasta</a></li>
-						</ul>
-					</li>
-					<li><a href="./about.html">About</a></li>
-				</ul>
-				<br />
-				<!-- legal items -->
-				<div class="text-center">
-					<h5>&copy; 2017 Malodreth's Lair</h5>
-					<p><a href="mailto:malodreth@gmail.com">Contact Us</a> | <a href="./legal.html">Terms and Conditions</a></p>
-				</div>
-			</footer>			
-		</section>		
+			</div>						
+		</section>
+		<footer class="container footer">
+			<!-- bottom navigation -->
+			<ul class="nav nav-pills nav-justified">
+				<li class="active"><a href="./index.html">Home</a></li>
+				<li><a href="./blog.html">Blog</a></li>
+				<li class="dropup">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-header">Coding</li>
+						<li><a href="./ebony.html">Ebony</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-header">Writing</li>
+						<li><a href="./creepy.html">Creepypasta</a></li>
+					</ul>
+				</li>
+				<li><a href="./about.html">About</a></li>
+			</ul>
+			<br />
+			<!-- legal items -->
+			<div class="text-center" id="copyright">
+				<h5>&copy; 2017 Malodreth's Lair</h5>
+				<p><a href="mailto:malodreth@gmail.com">Contact Us</a> | <a href="./legal.html">Terms and Conditions</a></p>
+			</div>
+		</footer>
 	</body>
 </html>

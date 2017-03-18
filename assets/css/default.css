@@ -13,11 +13,19 @@ body {
 	background: darkgrey;
 }
 
+h2, h3, h4, h5, h6 {
+	font-family: 'Audiowide', sans-serif;
+}
+
+h1, p {
+	font-family: 'Open Sans', sans-serif;
+}
+
 /* styling for index.html and main content pages */
 #main-section {
 	padding-top: 10px;
+	padding-bottom: 20px;
 	background: white;
-	border-radius: 12px;
 }
 
 #main-section .jumbotron {
@@ -28,10 +36,6 @@ body {
 
 #jumbo-header {
 	border-bottom: 1px solid darkgrey;
-}
-
-#jumbo-header h1 {
-	font-style: italic;
 }
 
 #main-section .row {
@@ -62,10 +66,10 @@ body {
 /* styling for terms.html */
 #tos-section {
 	padding-top: 15px;
+	padding-bottom: 20px;
 	background: white;
-	border-radius: 12px;
 }
 
 #tos-section article {
-	padding: 0px 15px 15px 15px;
+	padding: 0px 15px;
 }
