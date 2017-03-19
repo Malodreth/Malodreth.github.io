@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-GB">
 	<head>
-		<title>Malodreth's Lair: Main</title>
+		<title>Malodreth's Lair: Blog</title>
 		<!-- meta data -->
 		<meta charset="utf-8" />
 		<meta name="description" content="A seedy corner of the internet filled with amateur projects, creepypasta and various iniquity..." />
@@ -9,20 +9,22 @@
 		<meta name="author" content="Malodreth" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />	
 		<!-- custom favicon -->
-		<link href="./assets/images/favicon.ico" type="image/ico" rel="shortcut icon" />	
+		<link href="../assets/images/favicon.ico" type="image/ico" rel="shortcut icon" />	
 		<!-- Google Fonts Audiowide, Exo 2, Open Sans and Source Sans Pro -->
 		<link href="https://fonts.googleapis.com/css?family=Audiowide%7CExo+2%7COpen+Sans:300%7CSource+Sans+Pro" rel="stylesheet">
 		<!-- Bootstrap CSS v3.3.7 -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
 		<!-- custom CSS -->
-		<link href="./assets/css/default.css" rel="stylesheet" />
-		<link href="./assets/css/malos_nav.css" rel="stylesheet" />
+		<link href="../assets/css/default.css" rel="stylesheet" />
+		<link href="../assets/css/malos_nav.css" rel="stylesheet" />
 		<!-- jQuery v3.1.1 -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- custom JS -->
+		<script src="../assets/js/blog.js"></script>
 		<!-- Bootstrap JS v3.3.7 -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
-	<body>	
+	<body onload="pager()">	
 		<!-- top navigation -->
 		<nav class="navbar navbar-custom navbar-fixed-top">
 			<div class="container">			
@@ -33,28 +35,28 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="./index.html"><img src="./assets/images/malos_logo.png" alt="logo" /></a>
+					<a class="navbar-brand" href="../index.html"><img src="../assets/images/malos_logo.png" alt="logo" /></a>
 				</div>				
 				<!-- menu items -->
 				<div class="collapse navbar-collapse" id="mainNavBar">
 					<!-- left-align -->
 					<ul class="nav navbar-nav">	
-						<li><a href="./blog.html">Blog</a></li>
+						<li><a href="../blog.html">Blog</a></li>
 						<!-- dropdown -->
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li class="dropdown-header">Coding</li>
-								<li><a href="./ebony.html">Ebony</a></li>
+								<li><a href="../ebony.html">Ebony</a></li>
 								<li class="divider"></li>
 								<li class="dropdown-header">Writing</li>
-								<li><a href="./creepy.html">Creepypasta</a></li>
+								<li><a href="../creepy.html">Creepypasta</a></li>
 							</ul>
 						</li>						
 					</ul>
 					<!-- right-align -->
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="./about.html">About</a></li>
+						<li><a href="../about.html">About</a></li>
 					</ul>
 				</div>			
 			</div>
@@ -62,71 +64,57 @@
 		
 		
 		<!-- main section -->
-		<section class="container" id="main-section">		
-			<header class="jumbotron">
-				<div id="main-header">
-					<h1>What's new?</h1>
-					<h3>Take a look at our most recent update...</h3>
-				</div>
-				<h2>Ebony</h2>
-				<p>This is a placeholder for the best article ever.</p>
-				<p><a class="btn btn-lg btn-primary" href="#">View article &raquo;</a></p>
-			</header>			
-			<div class="row">
-				<div class="col-md-6">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-				<div class="col-md-6">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-			</div>			
-			<div class="row">
-				<div class="col-md-6">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-				<div class="col-md-6">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-			</div>			
-			<div class="row">
-				<div class="col-md-6" id="col-bottom-left">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-				<div class="col-md-6" id="col-bottom-right">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-			</div>						
+		<section class="container" id="blog-section">		
+			<header class="text-center">
+				<!-- post title -->
+				<h1 id="blog-header">Post #1</h1>
+			</header>
+			<div class="panel-group">
+				<article class="panel panel-default" id="blog-post">
+					<header class="panel-heading">
+						<!-- post number -->
+						<h6>#<span id="post-no">1</span></h6>
+					</header>
+					<div class="panel-body">
+						<!-- post content -->
+						<p id="blog-content">This is some text.</p>
+					</div>
+					<footer class="panel-footer">
+						<h6 id="blog-footer">15 March, 2017</h6>
+					</footer>
+				</article>
+			</div>
+			<div class="container">
+				<ul class="pager">
+					<li id="prev"></li>
+					<li id="next"></li>
+				</ul>
+			</div>
 		</section>
 		
 		
 		<footer class="container footer">
 			<!-- bottom navigation -->
 			<ul class="nav nav-pills nav-justified">
-				<li class="active"><a href="./index.html">Home</a></li>
-				<li><a href="./blog.html">Blog</a></li>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../blog.html">Blog</a></li>
 				<li class="dropup">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li class="dropdown-header">Coding</li>
-						<li><a href="./ebony.html">Ebony</a></li>
+						<li><a href="../ebony.html">Ebony</a></li>
 						<li class="divider"></li>
 						<li class="dropdown-header">Writing</li>
-						<li><a href="./creepy.html">Creepypasta</a></li>
+						<li><a href="../creepy.html">Creepypasta</a></li>
 					</ul>
 				</li>
-				<li><a href="./about.html">About</a></li>
+				<li><a href="../about.html">About</a></li>
 			</ul>
 			<br />
 			<!-- legal items -->
 			<div class="text-center" id="copyright">
 				<h5>&copy; 2017 Malodreth's Lair</h5>
-				<p><a href="mailto:malodreth@gmail.com">Contact Us</a> | <a href="./legal.html">Terms and Conditions</a></p>
+				<p><a href="mailto:malodreth@gmail.com">Contact Us</a> | <a href="../legal.html">Terms and Conditions</a></p>
 			</div>
 		</footer>
 	</body>

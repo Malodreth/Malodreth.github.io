@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-GB">
 	<head>
-		<title>Malodreth's Lair: Main</title>
+		<title>Malodreth's Lair: Blog</title>
 		<!-- meta data -->
 		<meta charset="utf-8" />
 		<meta name="description" content="A seedy corner of the internet filled with amateur projects, creepypasta and various iniquity..." />
@@ -19,10 +19,12 @@
 		<link href="./assets/css/malos_nav.css" rel="stylesheet" />
 		<!-- jQuery v3.1.1 -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- custom JS -->
+		<script src="./assets/js/blog.js"></script>
 		<!-- Bootstrap JS v3.3.7 -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
-	<body>	
+	<body onload="addPosts()">	
 		<!-- top navigation -->
 		<nav class="navbar navbar-custom navbar-fixed-top">
 			<div class="container">			
@@ -39,7 +41,7 @@
 				<div class="collapse navbar-collapse" id="mainNavBar">
 					<!-- left-align -->
 					<ul class="nav navbar-nav">	
-						<li><a href="./blog.html">Blog</a></li>
+						<li class="active"><a href="./blog.html">Blog</a></li>
 						<!-- dropdown -->
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
@@ -62,54 +64,40 @@
 		
 		
 		<!-- main section -->
-		<section class="container" id="main-section">		
-			<header class="jumbotron">
-				<div id="main-header">
-					<h1>What's new?</h1>
-					<h3>Take a look at our most recent update...</h3>
-				</div>
-				<h2>Ebony</h2>
-				<p>This is a placeholder for the best article ever.</p>
-				<p><a class="btn btn-lg btn-primary" href="#">View article &raquo;</a></p>
-			</header>			
-			<div class="row">
-				<div class="col-md-6">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-				<div class="col-md-6">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-			</div>			
-			<div class="row">
-				<div class="col-md-6">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-				<div class="col-md-6">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-			</div>			
-			<div class="row">
-				<div class="col-md-6" id="col-bottom-left">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-				<div class="col-md-6" id="col-bottom-right">
-					<h4>Article</h4>
-					<p>Stuff goes here like you wouldn't believe.</p>
-				</div>
-			</div>						
+		<section class="container" id="blog-section">		
+			<header class="text-center"><h2>Malodreth's Blog Index</h2></header>
+			<table class="table table-hover table-responsive">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Title</th>
+						<th>Date</th>
+						<th>Author</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr id="blog-row">
+						<td id="blog-num"></td>
+						<td id="blog-title"></td>
+						<td id="blog-date"></td>
+						<td id="blog-author"></td>
+					</tr>
+					<tr id="blog-row">
+						<td id="blog-num"></td>
+						<td id="blog-title"></td>
+						<td id="blog-date"></td>
+						<td id="blog-author"></td>
+					</tr>
+				</tbody>
+			</table>
 		</section>
 		
 		
 		<footer class="container footer">
 			<!-- bottom navigation -->
 			<ul class="nav nav-pills nav-justified">
-				<li class="active"><a href="./index.html">Home</a></li>
-				<li><a href="./blog.html">Blog</a></li>
+				<li><a href="./index.html">Home</a></li>
+				<li class="active"><a href="./blog.html">Blog</a></li>
 				<li class="dropup">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
 					<ul class="dropdown-menu">

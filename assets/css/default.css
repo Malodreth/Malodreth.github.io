@@ -13,16 +13,8 @@ body {
 	background: darkgrey;
 }
 
-h2, h3, h4, h5, h6 {
-	font-family: 'Audiowide', sans-serif;
-}
-
-h1, p {
-	font-family: 'Open Sans', sans-serif;
-}
-
 /* styling for index.html and main content pages */
-#main-section {
+#main-section, #blog-section {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	background: white;
@@ -34,7 +26,7 @@ h1, p {
 	border-radius: 12px 12px 0px 0px;
 }
 
-#jumbo-header {
+#main-header {
 	border-bottom: 1px solid darkgrey;
 }
 
@@ -72,4 +64,20 @@ h1, p {
 
 #tos-section article {
 	padding: 0px 15px;
+}
+
+
+/* styling for blog.html */
+#blog-post h1, #blog-post h2, #blog-post h3, #blog-post h4, 
+#blog-post h5, #blog-post h6, #blog-post p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.panel .panel-heading, .panel .panel-footer {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#blog-header {
+	font-family: 'Audiowide', sans-serif;
 }
