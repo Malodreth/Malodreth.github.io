@@ -68,7 +68,7 @@ body {
 
 
 /* styling for blog.html */
-#blog-post h1, #blog-post h2, #blog-post h3, #blog-post h4, 
+/*#blog-post h1, #blog-post h2, #blog-post h3, #blog-post h4, 
 #blog-post h5, #blog-post h6, #blog-post p {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -76,8 +76,4 @@ body {
 .panel .panel-heading, .panel .panel-footer {
 	padding-top: 2px;
 	padding-bottom: 2px;
-}
-
-#blog-header {
-	font-family: 'Audiowide', sans-serif;
-}
+}*/

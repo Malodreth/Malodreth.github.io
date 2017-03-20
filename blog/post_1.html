@@ -66,24 +66,29 @@
 		<!-- main section -->
 		<section class="container" id="blog-section">		
 			<header class="text-center">
-				<!-- post title -->
-				<h1 id="blog-header">Post #1</h1>
+				<h1>Malodreth's Blog</h1>
 			</header>
 			<div class="panel-group">
-				<article class="panel panel-default" id="blog-post">
+				<article class="panel panel-danger" id="blog-post">
 					<header class="panel-heading">
-						<!-- post number -->
-						<h6>#<span id="post-no">1</span></h6>
+						<!-- post number and title -->
+						<div>#<span id="post-no">1</span>&emsp;
+							<span id="blog-header">Post 1</span>
+						</div>
 					</header>
 					<div class="panel-body">
 						<!-- post content -->
 						<p id="blog-content">This is some text.</p>
 					</div>
 					<footer class="panel-footer">
-						<h6 id="blog-footer">15 March, 2017</h6>
+						<!-- post date -->
+						<div id="blog-footer">15 March, 2017</div>
 					</footer>
 				</article>
 			</div>
+			
+			
+			<!-- pager navbar -->
 			<div class="container">
 				<ul class="pager">
 					<li id="prev"></li>
@@ -93,8 +98,8 @@
 		</section>
 		
 		
+		<!-- bottom navigation -->
 		<footer class="container footer">
-			<!-- bottom navigation -->
 			<ul class="nav nav-pills nav-justified">
 				<li><a href="../index.html">Home</a></li>
 				<li><a href="../blog.html">Blog</a></li>
@@ -117,5 +122,6 @@
 				<p><a href="mailto:malodreth@gmail.com">Contact Us</a> | <a href="../legal.html">Terms and Conditions</a></p>
 			</div>
 		</footer>
+		<script>var author=document.querySelector("#blog-footer");author.insertAdjacentHTML("afterbegin", '&raquo; Posted by <a href="../about.html">Malodreth</a> on ');</script>
 	</body>
 </html>
