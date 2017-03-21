@@ -66,6 +66,9 @@ body {
 	padding: 0px 15px;
 }
 
+#blog-section > header {
+	padding-bottom: 20px;
+}
 
 /* styling for blog.html */
 /*#blog-post h1, #blog-post h2, #blog-post h3, #blog-post h4, 
