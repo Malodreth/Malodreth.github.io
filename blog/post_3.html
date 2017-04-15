@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en-GB">
+	<head>
+		<title>Malodreth's Blog</title>
+		<!-- meta data -->
+		<meta charset="utf-8" />
+		<meta name="description" content="A seedy corner of the internet filled with amateur projects, creepypasta and various iniquity..." />
+		<meta name="keywords" content="Malodreth, Project Ebony" />
+		<meta name="author" content="Malodreth" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />	
+		<!-- custom favicon -->
+		<link href="../assets/images/favicon.ico" type="image/ico" rel="shortcut icon" />	
+		<!-- Google Fonts Audiowide, Exo 2, Open Sans and Source Sans Pro -->
+		<link href="https://fonts.googleapis.com/css?family=Audiowide%7CExo+2%7COpen+Sans:300%7CSource+Sans+Pro" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Bootstrap CSS v3.3.7 -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+		<!-- custom CSS -->
+		<link href="../assets/css/default.css" rel="stylesheet" />
+		<link href="../assets/css/malos_nav.css" rel="stylesheet" />
+		<!-- jQuery v3.1.1 -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Bootstrap JS v3.3.7 -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body onload="pager()">	
+		<!-- top navigation -->
+		<nav class="navbar navbar-custom navbar-fixed-top">
+			<div class="container">			
+				<!-- logo and collapse toggle button -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="../index.html"><img src="../assets/images/malos_logo.png" alt="logo" /></a>
+				</div>				
+				<!-- menu items -->
+				<div class="collapse navbar-collapse" id="mainNavBar">
+					<!-- left-align -->
+					<ul class="nav navbar-nav">	
+						<li><a href="../blog.html">Blog</a></li>
+						<!-- dropdown -->
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-header">Coding</li>
+								<li><a href="../ebony.html">Ebony</a></li>
+								<li class="divider"></li>
+								<li class="dropdown-header">Writing</li>
+								<li><a href="../creepy.html">Creepypasta</a></li>
+							</ul>
+						</li>						
+					</ul>
+					<!-- right-align -->
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="../about.html">About</a></li>
+					</ul>
+				</div>			
+			</div>
+		</nav>
+		
+		
+		<!-- main section -->
+		<section class="container" id="blog-section">		
+			<header class="text-center">
+				<h1>Malodreth's Blog</h1>
+			</header>
+				<div class="panel-group">
+					<article class="panel panel-danger" id="blog-post">
+						<header class="panel-heading">
+							<!-- post number and title -->
+							<div>#<span id="post-no">3</span>&emsp;
+								<span id="blog-header">Thinking Again</span>
+							</div>
+						</header>
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-md-2" id="blog-avatar"></div>
+								<div class="col-md-10" id="blog-content">
+									<!-- begin post body -->
+									<p>After my last entry, I decided to revisit the old MIDI stomping grounds and give it a new turn — this time with 10 years' life experience behind me.</p>
+									<p>I found a new music notation programme called <a href="https://musescore.org" target="_blank_">MuseScore 2.0</a>. It's free and open source. 10 minutes in I realised that this software is a million times better than MusicMasterworks (which was a licenced product I was using the trial version for) and supports tablature for stringed instruments!</p>
+									<p>I dicked around with MuseScore for a couple hours and pieced together a short instrumental. I based main chord progression off of my 2007 MIDI song <i>An Draíocht na Marbh</i>, but ultimately this piece ended up with a slight Aboriginal-Australian/Bluegrass sound to it.</p>
+									<p>10 years' experience... decide for yourself whether there's been an improvement. lol</p><br />
+									<h4>Hot Rain (When the Summer Stars Cried) by Malodreth</h4>
+									<p>
+										<audio controls>
+											<source src="../assets/music/Hot Rain.wav" type="audio/wav">
+											Your browser does not support the audio element.
+										</audio>
+									</p>
+									<!-- end post body -->
+   								</div>	
+							</div>
+						</div>
+						<footer class="panel-footer">
+							<!-- post date -->
+							<div id="blog-footer">15 April, 2017 10:52 AM</div>
+						</footer>
+					</article>
+				</div>
+			</div>			
+			
+			<!-- pager navbar -->
+			<div class="container">
+				<ul class="pager">
+					<li id="prev"></li>
+					<li id="next"></li>
+				</ul>
+			</div>
+		</section>
+		
+		
+		<!-- bottom navigation -->
+		<footer class="container footer">
+			<ul class="nav nav-pills nav-justified">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../blog.html">Blog</a></li>
+				<li class="dropup">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-header">Coding</li>
+						<li><a href="../ebony.html">Ebony</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-header">Writing</li>
+						<li><a href="../creepy.html">Creepypasta</a></li>
+					</ul>
+				</li>
+				<li><a href="../about.html">About</a></li>
+			</ul>
+			<br />
+			<!-- legal items -->
+			<div class="text-center" id="copyright">
+				<h5>&copy; 2017 Malodreth's Lair</h5>
+				<p><a href="mailto:malodreth@gmail.com">Contact Us</a> | <a href="../legal.html">Terms and Conditions</a></p>
+			</div>
+		</footer>
+		<!-- custom JS for blog posts -->
+		<script src="../assets/js/post.js"></script>
+	</body>
+</html>
