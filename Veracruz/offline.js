@@ -1,11 +1,15 @@
 ﻿{
-	"version": 1495220319,
+	"version": 1495221267,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
 		"jquery-2.1.1.min.js",
 		"offlineClient.js",
 		"images/touch_act-sheet0.png",
+		"images/touch_dn-sheet0.png",
+		"images/touch_left-sheet0.png",
+		"images/touch_right-sheet0.png",
+		"images/touch_up-sheet0.png",
 		"images/player-sheet0.png",
 		"images/playerdirbox-sheet0.png",
 		"images/enemypizza-sheet0.png",
