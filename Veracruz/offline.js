@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1495221267,
+	"version": 1495323972,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -11,6 +11,7 @@
 		"images/touch_right-sheet0.png",
 		"images/touch_up-sheet0.png",
 		"images/player-sheet0.png",
+		"images/player-sheet1.png",
 		"images/playerdirbox-sheet0.png",
 		"images/enemypizza-sheet0.png",
 		"images/enemygaycoconut-sheet0.png",
