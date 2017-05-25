@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1495674155,
+	"version": 1495682468,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -27,6 +27,9 @@
 		"images/goomba-sheet2.png",
 		"images/koopatroopa-sheet0.png",
 		"images/background.png",
+		"images/pipeentry-sheet0.png",
+		"images/pipeexit-sheet0.png",
+		"images/pipecamera-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",

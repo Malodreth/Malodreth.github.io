@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1495674155
+#1495682468
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -26,6 +26,9 @@ images/goomba-sheet1.png
 images/goomba-sheet2.png
 images/koopatroopa-sheet0.png
 images/background.png
+images/pipeentry-sheet0.png
+images/pipeexit-sheet0.png
+images/pipecamera-sheet0.png
 icon-16.png
 icon-32.png
 icon-114.png
