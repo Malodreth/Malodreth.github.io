@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1495696782
+#1495875228
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -9,11 +9,19 @@ images/mario-sheet1.png
 images/mario-sheet2.png
 images/camera-sheet0.png
 images/invisiblewall-sheet0.png
+images/cameradisable-sheet0.png
+images/castledoor-sheet0.png
+images/flagpole-sheet0.png
+images/firework-sheet0.png
+images/firework-sheet1.png
+images/firework-sheet2.png
 images/mushroom-sheet0.png
 images/coin-sheet0.png
 images/coin-sheet1.png
 images/coin-sheet2.png
 images/fakecoin-sheet0.png
+images/flag-sheet0.png
+images/castleflag-sheet0.png
 images/itemblock-sheet0.png
 images/itemblockhitbox-sheet0.png
 images/breakableblock-sheet0.png
@@ -76,10 +84,16 @@ media/warning.m4a
 media/warning.ogg
 media/world%20clear.m4a
 media/world%20clear.ogg
+media/point.m4a
+media/point.ogg
 media/ground%20theme.m4a
 media/ground%20theme.ogg
 media/underground%20theme.m4a
 media/underground%20theme.ogg
+media/ground%20theme%20(fast).m4a
+media/ground%20theme%20(fast).ogg
+media/underground%20theme%20(fast).m4a
+media/underground%20theme%20(fast).ogg
 icon-16.png
 icon-32.png
 icon-114.png
