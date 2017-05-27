@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1495875228,
+	"version": 1495878528,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -39,6 +39,11 @@
 		"images/pipeexit-sheet0.png",
 		"images/pipecamera-sheet0.png",
 		"images/maintext.png",
+		"images/uptouch-sheet0.png",
+		"images/lefttouch-sheet0.png",
+		"images/downtouch-sheet0.png",
+		"images/righttouch-sheet0.png",
+		"images/atouch-sheet0.png",
 		"media/1-up.m4a",
 		"media/1-up.ogg",
 		"media/bowser falls.m4a",
