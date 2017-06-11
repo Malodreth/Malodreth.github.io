@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1497202615,
+	"version": 1497203969,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -11,7 +11,7 @@
 		"images/ctrldown-sheet0.png",
 		"images/ctrlleft-sheet0.png",
 		"images/ctrlright-sheet0.png",
-		"images/ctrlup-sheet0.png",
+		"images/ctrlb-sheet0.png",
 		"images/collidersolid-sheet0.png",
 		"images/bgpollution.png",
 		"images/bgpollutionsky.png",
